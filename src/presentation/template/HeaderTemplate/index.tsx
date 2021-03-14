@@ -1,21 +1,26 @@
 import React from 'react'
-import { Image, View, Text } from 'react-native'
+import { Image, View, Text, TouchableOpacity } from 'react-native'
 import { templateStyle } from '../templteStyle'
 import Svg, { Path } from 'react-native-svg'
 import { LabelComponent } from '../../component/LabelComponent'
 
+
 export const HeaderTemplate = (props: any) => {
-    const {title, description}=props
+    const { title, description, action } = props
+
+    
     return (
         <View style={templateStyle.page}>
             <View style={templateStyle.background}>
                 <View style={templateStyle.element}>
                     <View style={templateStyle.container}>
-                        <View style={templateStyle.item}>
+                        <TouchableOpacity
+                            onPress={action}
+                            style={templateStyle.item}>
                             <Image style={templateStyle.image}
                                 source={require('../../../assets/images/icon/back.png')}
                             />
-                        </View>
+                        </TouchableOpacity>
                         <View style={templateStyle.item}>
                             <Image style={templateStyle.image}
                                 source={require('../../../assets/images/icon/filter.png')}
@@ -24,8 +29,8 @@ export const HeaderTemplate = (props: any) => {
                     </View>
                 </View>
                 <View style={templateStyle.textContainer}>
-                    <LabelComponent label={title} type={'primaryTitle'}/>
-                    <LabelComponent label={description} type={'secondaryTitle'}/>
+                    <LabelComponent label={title} type={'primaryTitle'} />
+                    <LabelComponent label={description} type={'secondaryTitle'} />
                 </View>
                 <Svg
                     height="200"

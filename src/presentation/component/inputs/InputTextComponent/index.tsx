@@ -1,15 +1,15 @@
 import React from 'react'
-import { View, TextInput } from 'react-native'
+import { TextInput, View } from 'react-native'
+import { LabelComponent } from '../../LabelComponent'
 import { inputsStyle } from '../inputsStyle'
 export const InputTextComponent = (props: any) => {
-
+    const { label } = props
     return (
-        <View style={inputsStyle.container}>
+        <View >
+            <LabelComponent label={`${label} :`} type='secondaryTitle' />
             <TextInput
-            
-            >
-
-            </TextInput>
+                style={inputsStyle.container}
+            />
         </View>
     )
 }
