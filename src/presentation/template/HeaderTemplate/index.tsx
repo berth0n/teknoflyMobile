@@ -1,21 +1,27 @@
 import React from 'react'
-import { Image, View, Text, TouchableOpacity } from 'react-native'
+import { Image, View, Text, TouchableOpacity, StatusBar } from 'react-native'
 import { templateStyle } from '../templteStyle'
 import Svg, { Path } from 'react-native-svg'
 import { LabelComponent } from '../../component/LabelComponent'
+import { StackNavigationProp } from '@react-navigation/stack'
+import { useNavigation } from '@react-navigation/native'
+export type StackParams = {
+    Header: undefined;
+}
 
-
+type NavigationProps = StackNavigationProp<StackParams, 'Header'>;
 export const HeaderTemplate = (props: any) => {
-    const { title, description, action } = props
-
-    
+    const { title, description, action, } = props
+    const { navigate, goBack } = useNavigation<NavigationProps>();
+ 
     return (
         <View style={templateStyle.page}>
+              <StatusBar hidden={false} backgroundColor='orange'  />
             <View style={templateStyle.background}>
                 <View style={templateStyle.element}>
                     <View style={templateStyle.container}>
                         <TouchableOpacity
-                            onPress={action}
+                            onPress={()=>goBack()}
                             style={templateStyle.item}>
                             <Image style={templateStyle.image}
                                 source={require('../../../assets/images/icon/back.png')}
@@ -39,7 +45,7 @@ export const HeaderTemplate = (props: any) => {
                     style={templateStyle.svg}
                 >
                     <Path
-                        fill="#0099ff"
+                        fill="orange"
                         d="M0,256L60,234.7C120,213,240,171,360,144C480,117,600,107,720,128C840,149,960,203,1080,208C1200,213,1320,171,1380,149.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
                     />
                 </Svg>

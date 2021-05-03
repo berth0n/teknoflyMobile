@@ -7,7 +7,7 @@ export const templateStyle = StyleSheet.create({
     },
  
     background: {
-        backgroundColor: '#0099ff', height: '55%', position:'relative',
+        backgroundColor: 'orange', height: '55%', position:'relative',
         width:'100%'
     },
  
@@ -39,8 +39,9 @@ export const templateStyle = StyleSheet.create({
     },
 
     image:{
-        width:400,
-        height:200,
+       flex:1,
+       width:'100%',
+       flexWrap:'wrap'
         
     }
 

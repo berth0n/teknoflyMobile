@@ -1,12 +1,13 @@
 import React from 'react'
 import { LabelComponent } from '../../component/LabelComponent'
 import { HeaderLayout } from '../../layout/HeaderLayout'
-import { PageLayout } from '../../layout/PageLyout'
+import { PageLayout } from '../../layout/PageLayout'
 import { FooterTemplate } from '../../template/FooterTemplate'
 import {View, Text} from 'react-native'
 
 export const LoginScreen=(props:any)=>{
     const {navigation}=props
+ 
     const handleSubmit = () =>{
         navigation.navigate('Home')
     }

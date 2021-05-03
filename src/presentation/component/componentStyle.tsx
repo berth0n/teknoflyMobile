@@ -28,12 +28,28 @@ export const componentStyle = StyleSheet.create({
        width:'100%',
        justifyContent:'center',
        alignItems:'center',
-       height:60,
+       height:40,
        backgroundColor:'white',
-       borderRadius:30,
+       padding:10,
+     
+   },
+   buttonPrimary:{
+
+       backgroundColor:'blue',
+    
+     
    },
    buttonText:{
        fontSize:20,
        fontFamily:'Backslash'
+   },
+   smallText:{
+       fontSize:14,
+       fontFamily:'Backslash'
+   },
+   primaryText:{
+       fontSize:14,
+       fontFamily:'Backslash',
+       color:'#fff'
    }
 })

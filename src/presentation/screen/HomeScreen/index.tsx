@@ -1,25 +1,34 @@
-import React from 'react'
-import { LabelComponent } from '../../component/LabelComponent'
-import { HeaderLayout } from '../../layout/HeaderLayout'
-import { PageLayout } from '../../layout/PageLyout'
-import { HeaderTemplate } from '../../template/HeaderTemplate'
+import * as React from 'react';
+import { useWindowDimensions, View } from 'react-native';
+import { SceneMap, TabView } from 'react-native-tab-view';
+import { AEmporterScreen } from '../AEmporterScreen';
+import { LivraisonScreen } from '../LivraisonScreen';
 
 
-export const HomeScreen=(props:any)=>{
-   const {navigation}=props
-   const goBack = () =>{
-       navigation.goBack();
-   }
-    return(
-        <HeaderLayout>
+export const HomeScreen = () => {
+  const layout = useWindowDimensions();
 
-            <HeaderTemplate title="Inscription" description="Bienvenu sur notre plateforme" 
-            action={goBack}
-            showButton={false}/>
-            <PageLayout>
+  const [index, setIndex] = React.useState(0);
+  const [routes] = React.useState([
+    { key: 'livraison', title: 'Livraison' },
+    { key: 'aEmporter', title: 'A emporter' },
+  ]);
 
-            <LabelComponent label="Login" type='primaryTitle'/>
-            </PageLayout>
-        </HeaderLayout>
-    )
+  const renderScene = SceneMap({
+    livraison: LivraisonScreen,
+    aEmporter: AEmporterScreen,
+  });
+
+  
+
+  return (
+    <TabView
+      navigationState={{ index, routes }}
+      renderScene={renderScene}
+      onIndexChange={setIndex}
+      initialLayout={{ width: layout.width }}
+      
+      swipeEnabled={false}
+    />
+  );
 }

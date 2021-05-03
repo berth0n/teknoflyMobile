@@ -14,7 +14,7 @@ export const templateStyle = StyleSheet.create({
         width: '100%'
     },
     background: {
-        backgroundColor: '#0099ff', height: 120
+        backgroundColor: 'orange', height: 120
     },
 
     item: {

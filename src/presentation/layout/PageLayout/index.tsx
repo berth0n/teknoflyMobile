@@ -6,7 +6,7 @@ export const PageLayout = (props) => {
     const { children } = props
 
     return (
-        <View style={layoutStyle.container}>
+        <View style={[layoutStyle.container, {marginBottom:150}]}>
             {children}
         </View>
     )
