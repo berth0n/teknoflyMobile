@@ -72,11 +72,11 @@ export const CardDetailComponent = (props: any) => {
                     <SelectPickerComponent selected={option} updateOption={updateOption}/>
                 </View>
                 <View style={styles.twoColumnsFood}>
-                    <View style={styles.numberOfFood}>
-                        <NumberFoodComponent numberOfFood={numberOfFood} setNumberOfFood={updateNumberOfFood} />
-                    </View>
                     <View style={styles.displayNumber}>
                         <ValueFoodComponent foodValue={price}/>
+                    </View>
+                    <View style={styles.numberOfFood}>
+                        <NumberFoodComponent numberOfFood={numberOfFood} setNumberOfFood={updateNumberOfFood} />
                     </View>
                 </View>
             </View>

@@ -9,7 +9,8 @@ export const styles = StyleSheet.create({
         borderWidth: 1,
         width: '100%',
         height:40,
-        justifyContent:'space-between'
+        justifyContent:'space-between',
+        borderColor:'gray'
         
     },
     image: {

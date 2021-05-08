@@ -7,5 +7,6 @@ export const styles = StyleSheet.create({
         marginVertical:5,
         alignItems:'flex-start',
         borderWidth:1,
+        borderColor:'gray'
     },
 })

@@ -27,7 +27,7 @@ export const DetailScreen = (props: any) => {
     }
 
     const commander = (commande) => {
-        console.log('commande', commande)
+    
         const name=commande.title
         const option=commande.option
         const nombre=commande.numberOfFood
