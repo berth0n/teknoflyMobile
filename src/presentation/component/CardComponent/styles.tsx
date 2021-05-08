@@ -74,7 +74,7 @@ export const styles = StyleSheet.create({
 
     title: {
         fontSize: 20,
-        fontFamily: 'Backslash',
+        fontFamily: 'DigitaltsOrange',
     },
 
     listCategory: {
@@ -110,7 +110,8 @@ export const styles = StyleSheet.create({
 
     },
     rank:{
-        fontFamily: 'JosefinSansSemibold'
+        fontFamily: 'JosefinSansSemibold',
+        color:'orange'
     },
     cardMain: {
         marginTop: 10,

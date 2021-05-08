@@ -22,15 +22,15 @@ export const styles = StyleSheet.create({
         
     },
     text:{
-        fontFamily:'DigitaltsOrange',
+        fontFamily:'Sporty',
         justifyContent:'center',
         alignItems:'center',
         color:'white',
-        fontSize:22,
+        fontSize:14,
         alignSelf:'flex-end',
         paddingHorizontal:10,
         height:30,
-        marginTop:5,
+        marginTop:10,
         
     }
 })

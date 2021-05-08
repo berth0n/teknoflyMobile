@@ -1,11 +1,12 @@
 import React from 'react'
-import { View, SafeAreaView } from 'react-native'
+import { View, SafeAreaView, ScrollView } from 'react-native'
 import { HeaderComponent } from '../../component/HeaderComponent'
 import { HeaderImageComponent } from '../../component/HeaderImageComponent'
 import { ListCardComponent } from '../../component/ListCardComponent'
+import { ListCardDetailComponent } from '../../component/ListCardDetailComponent'
 import { ScrollListComponent } from '../../component/ScrollListComponent'
 import { PageLayout } from '../../layout/PageLayout'
-import {list, data} from './mock'
+import { list, data } from './mock'
 
 
 export const DetailScreen = (props: any) => {
@@ -18,19 +19,25 @@ export const DetailScreen = (props: any) => {
         props.navigation.openDrawer()
     }
 
-    const backAction = () =>{
+    const backAction = () => {
         props.navigation.goBack()
     }
+
+    const commander = () => {
+        alert('commander')
+    }
     return (
-        <View>
-            <SafeAreaView>
-                <View style={{marginBottom:25}}>
+        <View style={{ flex: 1 }}>
+            <View style={{ height: '35%' }} >
+                <View  >
                     <HeaderImageComponent backAction={backAction} />
+                    <ScrollListComponent data={data} />
                 </View>
-                <PageLayout >
-                <ScrollListComponent data={data} />
-                </PageLayout>
-            </SafeAreaView>
+
+            </View>
+            <View style={{ height: '62%', marginVertical: 5, padding: 5, }} >
+                <ListCardDetailComponent data={list} action={commander} />
+            </View>
         </View>
     )
 }

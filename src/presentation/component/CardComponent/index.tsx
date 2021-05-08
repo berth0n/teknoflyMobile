@@ -2,23 +2,10 @@ import React from 'react'
 import { View, Text, ImageBackground, Image, TouchableOpacity } from 'react-native'
 import { styles } from './styles'
 
-const data = {
-    NotificationTitle: 'Nouveau',
-    Title: 'Gastro Pizza',
-    Description: 'Pizza Américaine, Burger, Sandwiches',
-    Livraison: 'GRATUIT',
-    Prix_min: '20.000 Ar',
-    Image: '',
-    Logo: '',
-    IsClosed: false,
-    ClosedDescription: 'Fermé pour livraison',
-    Rank: '3.5(605)',
-    ImageBackground: '../../../assets/images/standard/gastro_pizza.jpeg'
-}
+
 export const CardComponent = (props: any) => {
     const { data, action } = props;
-    const imageBackground = { uri: data.Image };
-    const logo = require('../../../assets/images/logo/gastro.png');
+  
     return (
         <View style={styles.cardMain}>
             <TouchableOpacity 

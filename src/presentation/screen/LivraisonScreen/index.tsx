@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, SafeAreaView } from 'react-native'
+import { View, SafeAreaView, Platform  } from 'react-native'
 import { HeaderComponent } from '../../component/HeaderComponent'
 import { ListCardComponent } from '../../component/ListCardComponent'
 import { ScrollListComponent } from '../../component/ScrollListComponent'
@@ -9,6 +9,8 @@ import { data, list } from './mock'
 
 export const LivraisonScreen = (props: any) => {
     const { navigation } = props
+    const OsVer = Platform.constants['Release'];
+    console.log('vers', OsVer)
     const goBack = () => {
         navigation.goBack();
     }

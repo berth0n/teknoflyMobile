@@ -35,7 +35,8 @@ export const styles = StyleSheet.create({
         padding: 10,
         zIndex:-9,
         flexWrap:'wrap',
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+        marginBottom:5,
     },
     textContainer: {
         flexDirection: 'column',

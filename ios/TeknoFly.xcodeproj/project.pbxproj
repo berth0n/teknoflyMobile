@@ -26,6 +26,16 @@
 		9CF0E38A05C24B96B3767DC9 /* DigitaltsOrange.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE21AD2B0E134F399B702F0F /* DigitaltsOrange.ttf */; };
 		61A93A86550D4874AFA334F2 /* JosefinSansSemibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 461F5643C3B541AAB975ADC1 /* JosefinSansSemibold.ttf */; };
 		A9F13EF5BB414047AE180A5E /* RondalRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE4211B4D964DE3BFF8AEDA /* RondalRegular.otf */; };
+		445DCEAFB3D84F3D938E9078 /* BeautifulPeopole.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 923CA5F45FCF498A8C230A54 /* BeautifulPeopole.ttf */; };
+		6ECE2AB4A39543AC80CC6508 /* Ghostlike.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C82D07B800745C1BE24A068 /* Ghostlike.ttf */; };
+		6DB02E6CCC504FCD99B0A55B /* OnFire.otf in Resources */ = {isa = PBXBuildFile; fileRef = 261304ACCB874B6B857C4876 /* OnFire.otf */; };
+		1EABC62A1C854BB5BB8FC5E9 /* Plasticlove.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 395772D92A2141B6B8DDDC76 /* Plasticlove.ttf */; };
+		D315AB059B3345A0B2B56097 /* PlasticloveRegular-rg8qK.otf in Resources */ = {isa = PBXBuildFile; fileRef = 506A396DFA7E4CC3B2D4E5AF /* PlasticloveRegular-rg8qK.otf */; };
+		D9339907A5ED4A4896AFEE90 /* Sporty.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2997BB6D61364540BD453669 /* Sporty.ttf */; };
+		5CBB2B22328943EAB9C8D185 /* Weather.otf in Resources */ = {isa = PBXBuildFile; fileRef = B9070846060D46DE90B45300 /* Weather.otf */; };
+		F07774A76D034450B78EA6C7 /* Family.otf in Resources */ = {isa = PBXBuildFile; fileRef = A8A378E5CE5E4C2C80E8F9DB /* Family.otf */; };
+		58F6C49676B24F7BB8DED77B /* Landsan.otf in Resources */ = {isa = PBXBuildFile; fileRef = 079AA9602DEC41E8A67551FB /* Landsan.otf */; };
+		FA79C1736D864AE7AAB2B148 /* Rokit.otf in Resources */ = {isa = PBXBuildFile; fileRef = F29FAD23403C40E6AB7FB8E5 /* Rokit.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +74,16 @@
 		EE21AD2B0E134F399B702F0F /* DigitaltsOrange.ttf */ = {isa = PBXFileReference; name = "DigitaltsOrange.ttf"; path = "../src/assets/fonts/DigitaltsOrange.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		461F5643C3B541AAB975ADC1 /* JosefinSansSemibold.ttf */ = {isa = PBXFileReference; name = "JosefinSansSemibold.ttf"; path = "../src/assets/fonts/JosefinSansSemibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		9EE4211B4D964DE3BFF8AEDA /* RondalRegular.otf */ = {isa = PBXFileReference; name = "RondalRegular.otf"; path = "../src/assets/fonts/RondalRegular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		923CA5F45FCF498A8C230A54 /* BeautifulPeopole.ttf */ = {isa = PBXFileReference; name = "BeautifulPeopole.ttf"; path = "../src/assets/fonts/BeautifulPeopole.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9C82D07B800745C1BE24A068 /* Ghostlike.ttf */ = {isa = PBXFileReference; name = "Ghostlike.ttf"; path = "../src/assets/fonts/Ghostlike.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		261304ACCB874B6B857C4876 /* OnFire.otf */ = {isa = PBXFileReference; name = "OnFire.otf"; path = "../src/assets/fonts/OnFire.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		395772D92A2141B6B8DDDC76 /* Plasticlove.ttf */ = {isa = PBXFileReference; name = "Plasticlove.ttf"; path = "../src/assets/fonts/Plasticlove.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		506A396DFA7E4CC3B2D4E5AF /* PlasticloveRegular-rg8qK.otf */ = {isa = PBXFileReference; name = "PlasticloveRegular-rg8qK.otf"; path = "../src/assets/fonts/PlasticloveRegular-rg8qK.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2997BB6D61364540BD453669 /* Sporty.ttf */ = {isa = PBXFileReference; name = "Sporty.ttf"; path = "../src/assets/fonts/Sporty.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B9070846060D46DE90B45300 /* Weather.otf */ = {isa = PBXFileReference; name = "Weather.otf"; path = "../src/assets/fonts/Weather.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A8A378E5CE5E4C2C80E8F9DB /* Family.otf */ = {isa = PBXFileReference; name = "Family.otf"; path = "../src/assets/fonts/Family.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		079AA9602DEC41E8A67551FB /* Landsan.otf */ = {isa = PBXFileReference; name = "Landsan.otf"; path = "../src/assets/fonts/Landsan.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F29FAD23403C40E6AB7FB8E5 /* Rokit.otf */ = {isa = PBXFileReference; name = "Rokit.otf"; path = "../src/assets/fonts/Rokit.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +190,16 @@
 				EE21AD2B0E134F399B702F0F /* DigitaltsOrange.ttf */,
 				461F5643C3B541AAB975ADC1 /* JosefinSansSemibold.ttf */,
 				9EE4211B4D964DE3BFF8AEDA /* RondalRegular.otf */,
+				923CA5F45FCF498A8C230A54 /* BeautifulPeopole.ttf */,
+				9C82D07B800745C1BE24A068 /* Ghostlike.ttf */,
+				261304ACCB874B6B857C4876 /* OnFire.otf */,
+				395772D92A2141B6B8DDDC76 /* Plasticlove.ttf */,
+				506A396DFA7E4CC3B2D4E5AF /* PlasticloveRegular-rg8qK.otf */,
+				2997BB6D61364540BD453669 /* Sporty.ttf */,
+				B9070846060D46DE90B45300 /* Weather.otf */,
+				A8A378E5CE5E4C2C80E8F9DB /* Family.otf */,
+				079AA9602DEC41E8A67551FB /* Landsan.otf */,
+				F29FAD23403C40E6AB7FB8E5 /* Rokit.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -279,6 +309,16 @@
 				9CF0E38A05C24B96B3767DC9 /* DigitaltsOrange.ttf in Resources */,
 				61A93A86550D4874AFA334F2 /* JosefinSansSemibold.ttf in Resources */,
 				A9F13EF5BB414047AE180A5E /* RondalRegular.otf in Resources */,
+				445DCEAFB3D84F3D938E9078 /* BeautifulPeopole.ttf in Resources */,
+				6ECE2AB4A39543AC80CC6508 /* Ghostlike.ttf in Resources */,
+				6DB02E6CCC504FCD99B0A55B /* OnFire.otf in Resources */,
+				1EABC62A1C854BB5BB8FC5E9 /* Plasticlove.ttf in Resources */,
+				D315AB059B3345A0B2B56097 /* PlasticloveRegular-rg8qK.otf in Resources */,
+				D9339907A5ED4A4896AFEE90 /* Sporty.ttf in Resources */,
+				5CBB2B22328943EAB9C8D185 /* Weather.otf in Resources */,
+				F07774A76D034450B78EA6C7 /* Family.otf in Resources */,
+				58F6C49676B24F7BB8DED77B /* Landsan.otf in Resources */,
+				FA79C1736D864AE7AAB2B148 /* Rokit.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
