@@ -4,11 +4,12 @@ import { styles } from './styles'
 
 
 export const HeaderImageComponent = (props: any) => {
-    const {backAction}=props;
+    const {backAction, params}=props;
+
     return (
         <View>
             <ImageBackground
-                source={require('../../../assets/images/standard/burgers.jpg')}
+                source={params.background}
                 style={styles.background}
             >
                 <TouchableOpacity style={styles.backContainer}
@@ -23,7 +24,7 @@ export const HeaderImageComponent = (props: any) => {
             </ImageBackground>
             <View style={styles.imageContainer}>
                 <Image
-                    source={require('../../../assets/images/logo/gastro.png')}
+                    source={params.logo}
                     style={styles.logo}
 
                 >
@@ -33,9 +34,9 @@ export const HeaderImageComponent = (props: any) => {
             <View style={styles.container}>
                 <View style={styles.textContaier}>
                     <Text style={styles.title}>
-                        La Gastronomie Pizza
+                        {params.title}
                     </Text>
-                    <Text style={styles.rank}>29 Avis</Text>
+                    <Text style={styles.rank}></Text>
                 </View>
                 <View>
                     <Text>Info</Text>

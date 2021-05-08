@@ -9,7 +9,7 @@ import { DetailScreen } from '../screen/DetailScreen';
 
 const DrawerNavigation = createDrawerNavigator({
   Livraiison: { screen: LivraisonScreen },
-  Detail: { screen: DetailScreen },
+  Detail: { screen: DetailScreen,  },
   Login: { screen: LoginScreen },
 }
   , {

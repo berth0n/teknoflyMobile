@@ -5,11 +5,14 @@ import { styles } from './styles'
 
 export const CardComponent = (props: any) => {
     const { data, action } = props;
-  
+    const [item, setItem] = React.useState(data);
+    const update = () =>{
+        action(item)
+    }
     return (
         <View style={styles.cardMain}>
             <TouchableOpacity 
-            onPress={action}
+            onPress={update}
             style={styles.card}>
 
                 <ImageBackground

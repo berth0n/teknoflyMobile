@@ -19,8 +19,16 @@ export const LivraisonScreen = (props: any) => {
         props.navigation.openDrawer()
     }
 
-    const action = () =>{
-        props.navigation.navigate('Detail')
+    const action = (data) =>{
+   
+        props.navigation.navigate('Detail',{
+            params:{
+                background:data.Image,
+                logo: data.Logo,
+                title:data.Title,
+                infos: data.Description,
+            }
+        })
     }
 
     return (

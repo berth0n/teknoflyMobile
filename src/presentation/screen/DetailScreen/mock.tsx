@@ -17,7 +17,19 @@ export const data = [
 export const list =
     [
         {
-            title: 'Tacos1 Cordon Bleu',
+            title: 'Tacos Cordon Bleu',
+            description: 'Viande haché assaisonné, frites, fromages chedar, sauce fromages',
+            price: '20000',
+            image: require('../../../assets/images/standard/taccos.jpg'),
+        },
+        {
+            title: 'Pizza 4 Fromages',
+            description: 'Viande haché assaisonné, frites, fromages chedar, sauce fromages',
+            price: '15000',
+            image: require('../../../assets/images/standard/taccos.jpg'),
+        },
+        {
+            title: 'Viande sauce',
             description: 'Viande haché assaisonné, frites, fromages chedar, sauce fromages',
             price: '20000',
             image: require('../../../assets/images/standard/taccos.jpg'),
@@ -35,21 +47,9 @@ export const list =
             image: require('../../../assets/images/standard/taccos.jpg'),
         },
         {
-            title: 'Tacos Cordon Bleu',
+            title: 'Tacos double formage',
             description: 'Viande haché assaisonné, frites, fromages chedar, sauce fromages',
-            price: '20000',
-            image: require('../../../assets/images/standard/taccos.jpg'),
-        },
-        {
-            title: 'Tacos Cordon Bleu',
-            description: 'Viande haché assaisonné, frites, fromages chedar, sauce fromages',
-            price: '20000',
-            image: require('../../../assets/images/standard/taccos.jpg'),
-        },
-        {
-            title: 'Tacos2 Cordon Bleu',
-            description: 'Viande haché assaisonné, frites, fromages chedar, sauce fromages',
-            price: '20000',
+            price: '15000',
             image: require('../../../assets/images/standard/taccos.jpg'),
         },
 

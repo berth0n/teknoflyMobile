@@ -18,7 +18,7 @@ export const list =
     [
         {
             NotificationTitle: 'Nouveau',
-            Title: 'Gastro Pizza',
+            Title: 'Gastro Pizza Analakely',
             Description: 'Pizza Américaine, Burger, Sandwiches',
             Livraison: 'GRATUIT',
             Prix_min: '20.000 Ar',
@@ -30,10 +30,10 @@ export const list =
         },
         {
             NotificationTitle: 'Promotion',
-            Title: 'Gastro Pizza',
-            Description: 'Pizza Américaine, Burger, Sandwiches',
+            Title: 'Extra Pizza Ankorondrano',
+            Description: 'Pizza Italiene, Sandwiches',
             Livraison: 'GRATUIT',
-            Prix_min: '20.000 Ar',
+            Prix_min: '15.000 Ar',
             Image: require('../../../assets/images/standard/burgers.jpg'),
             Logo: require('../../../assets/images/logo/extra_pizza.jpg'),
             IsClosed: false,
@@ -42,7 +42,7 @@ export const list =
         },
         {
             NotificationTitle: 'Nouveau',
-            Title: 'Gastro Pizza',
+            Title: 'Ma Pizza Antanimena',
             Description: 'Pizza Américaine, Burger, Sandwiches',
             Livraison: 'GRATUIT',
             Prix_min: '20.000 Ar',
@@ -54,7 +54,7 @@ export const list =
         },
         {
             NotificationTitle: 'Nouveau',
-            Title: 'Gastro Pizza',
+            Title: 'Gastro Pizza Ampitatafika',
             Description: 'Pizza Américaine, Burger, Sandwiches',
             Livraison: 'GRATUIT',
             Prix_min: '20.000 Ar',
@@ -66,7 +66,7 @@ export const list =
         },
         {
             NotificationTitle: 'Promotion',
-            Title: 'Gastro Pizza',
+            Title: 'Gastro Pizza Ankadifotsy',
             Description: 'Pizza Américaine, Burger, Sandwiches',
             Livraison: 'GRATUIT',
             Prix_min: '20.000 Ar',
