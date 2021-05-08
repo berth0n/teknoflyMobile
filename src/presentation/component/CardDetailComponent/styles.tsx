@@ -22,6 +22,7 @@ export const styles = StyleSheet.create({
         borderColor: 'gray',
         padding:5,
         paddingHorizontal:20,
+    
     },
     twoColumns: {
         flexDirection: 'row',
@@ -72,6 +73,10 @@ export const styles = StyleSheet.create({
     image:{
         width:100,
         height:100
+    },
+    bag:{
+        width:30,
+        height:30
     },
     numberOfFood:{
         width:'49%'

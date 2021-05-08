@@ -1,5 +1,6 @@
 import React from 'react'
-import { View, SafeAreaView, ScrollView } from 'react-native'
+import { View, SafeAreaView, ScrollView, Alert } from 'react-native'
+import { priceSepartor } from '../../../data/factory'
 import { HeaderComponent } from '../../component/HeaderComponent'
 import { HeaderImageComponent } from '../../component/HeaderImageComponent'
 import { ListCardComponent } from '../../component/ListCardComponent'
@@ -25,8 +26,24 @@ export const DetailScreen = (props: any) => {
         props.navigation.goBack()
     }
 
-    const commander = () => {
-        alert('commander')
+    const commander = (commande) => {
+        console.log('commande', commande)
+        const name=commande.title
+        const option=commande.option
+        const nombre=commande.numberOfFood
+        const price=priceSepartor(commande.price)+' Ar'
+        Alert.alert(
+            "Ma commande",
+            "- Nom : "+name+'\n- Option :'+option+'\n- Nombre: '+nombre+'\n- Prix: '+price,
+            [
+              {
+                text: "Annuler",
+                onPress: () => console.log("cancel"),
+                style: "cancel"
+              },
+              { text: "Enregistrer", onPress: () => console.log("save") }
+            ]
+          );
     }
     return (
         <View style={{ flex: 1 }}>
